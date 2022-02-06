@@ -1,0 +1,122 @@
+.overview-bg{
+        background-image:url("//c4.wallpaperflare.com/wallpaper/619/686/358/food-strawberries-fork-knife-fruit-hd-wallpaper-preview.jpg");background-repeat:no-repeat;
+        background-size:cover;
+      }
+.american-bg{
+        background-color:rgb(0, 89, 255);background-repeat:no-repeat;
+        background-size:cover;
+      }
+.chinese-bg{
+        background-color:rgb(243, 0, 0);background-repeat:no-repeat;
+        background-size:cover;
+      }
+
+h1{
+  text-transform:capitalize; 
+  font-size: 50px;
+}
+
+*{
+  color:white;
+}
+
+main{
+  font-family:serif;
+  text-align:left;
+  width:75%;
+  margin:auto;
+  line-height:35px;
+}
+
+h1{
+  text-align:center;
+}
+
+a:hover{
+  background-color:rgba(245, 203, 238, 0.753);
+  color:rgb(255, 94, 0);
+}
+
+a:active{
+  background-color:rgba(182, 255, 182, 0.699);
+  color:rgb(18, 59, 241);
+}
+
+nav a{
+  text-decoration:underline;
+  margin:20px;
+}
+
+nav{
+  background-color:rgb(230, 229, 229);
+position:fixed;
+border:0px;
+}
+
+a[target="_blank"]{
+color:blue;
+background-color:white;
+}
+
+img{
+  height:300px;
+  margin:30px;
+  border:4px white dotted;
+}
+
+.sameline{
+  display:inline-block;
+  width:300px;
+  height:500px;
+ 
+}
+
+img, .right1, .right2, .right3{
+  float:right;
+}
+
+.left1, .left2, .left3{
+    float:left;
+    
+}
+
+footer p,a{
+ background-color:rgb(230, 229, 229);
+ color:black;
+}
+
+#cflag{
+  border:none;
+  width:280px;
+  height:280px;
+}
+
+#aflag{
+  border:none;
+  width:200px;
+  height:110px;
+}
+
+.hi, .nihao{
+  border:4px pink double;
+  text-align:center;
+}
+
+
+.inline{
+  display:inline-block;
+}
+
+.shift, .fast{
+  border:4px rgb(181, 234, 255) double;
+  text-align:center;
+}
+
+input{
+  color: black; 
+}
+
+.meal{
+  border:4px gray double;
+ text-align:center;
+}
